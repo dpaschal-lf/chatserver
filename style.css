@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+#messageDisplay{
+	height: 90%;
+	background-color: lightgreen;
+}
+#userOutputArea{
+	height: 10%;
+	background-color: pink;
+}
+#userMessage, #sendButtonContainer{
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 100%;
+}
+#userMessage{
+	width: 80%;
+}
+#sendButtonContainer{
+	width: 20%;
+}
+#sendButton{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	left: 10%;
+	top: 10%;
+}
+.messageContainer{
+	border-bottom: 1px solid black;
+	font-size: 0;
+}
+.messageContainer:nth-child(even){
+	background-color: lightgrey;
+}
+.messageContainer .sender{
+	background-color: lightgreen;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0 3px;
+	display: inline-block;
+	min-width: 20%;
+	box-sizing: border-box;
+}
+.messageContainer.join .sender{
+	display: none;
+}
+.messageContainer .data{
+	font-size: 1rem;
+	display: inline-block;
+	min-width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
